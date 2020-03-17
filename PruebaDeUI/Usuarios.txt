@@ -1,0 +1,9 @@
+create table Usuario
+(
+idUser int(3) not null auto_increment,
+mailUser varchar(100) not null,
+nomUser varchar(100) not null,
+passUser varchar(100) not null,
+constraint PK_idUser Primary Key(idUser)
+);
+Insert into Usuario(idUser,mailUser,nomUser,passUser) Values("0","mail@gmail.com","Paco","123")
